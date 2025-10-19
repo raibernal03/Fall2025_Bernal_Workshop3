@@ -2,6 +2,7 @@ package logic;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Filter {
 
@@ -17,6 +18,7 @@ public class Filter {
 
         Main.printList(filteredList);
 
+
     }
 
     //price range
@@ -31,7 +33,6 @@ public class Filter {
         }
 
         Main.printList(range);
-
     }
 
 
